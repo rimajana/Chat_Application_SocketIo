@@ -1,0 +1,43 @@
+.JoinPage{
+    background-color: black;
+    /* border:2px red dotted; */
+    
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.JoinContainer{
+    /* border:2px white dotted; */
+    height: 50%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.JoinContainer >h1{
+    color: white;
+    font-size: 2.5vmax;
+    width:30vmax;
+    border-bottom: 0.2vmax solid white;
+    padding: 1vmax;
+    text-align: center;
+}
+.form-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    padding: 5px;
+    outline: none;
+}
+.form-login > input , .form-login >button{
+    margin: 5px 5px 5px 5px;
+    padding: 2px 2px 2px 2px;
+    height: 40%;
+}
+
+button{
+    background-color:red;
+}

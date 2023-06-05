@@ -1,0 +1,10 @@
+body{
+    margin: 0px;
+    height: 100%;
+    background-color: rgb(88, 86, 86);
+
+    /* overflow: hidden; */
+}
+*{
+    margin: 0px;
+}

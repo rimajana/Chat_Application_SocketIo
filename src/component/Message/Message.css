@@ -1,0 +1,38 @@
+.messageBox{
+    background-color: aquamarine;
+    width: max-content;
+    padding: 1vmax;
+    margin: 1.5vmax;
+    max-width: 50%;
+    border-radius: 0.5vmax;
+    display: inline-block;
+    word-wrap: break-word;
+    clear: both;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.right{
+    float: right;
+    background-color: rgb(212, 51, 83);
+    color:white;
+    clear: both;
+}
+.left{
+    float: left;
+    background-color: greenyellow;
+    color:black;
+    clear: both;
+}
+.middle{
+    /* display: flex; */
+    /* margin-left: 20%; */
+    /* width: 100%; */
+    background-color: aqua;
+   margin:auto;
+   width:max-content;
+   padding: 3px 3px 3px 3px;
+   margin-top: 10px;
+   border-radius: 0.5vmax;
+    clear: both;
+    /* border: 1px dotted red; */
+}
